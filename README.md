@@ -26,4 +26,27 @@ https://pypi.org/project/SpeechRecognition/<br>
 https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py<br>
 <br>
 參考寫法:<br>
+<br>
+<br>
+<br>
+<br>
+3.將生成的文字檔讀入<br>
+<br>
+參考資料：<br>
+<br>
+參考寫法：<br>
+<br>
+4.進行分析，文生每個文字的正負情緒值<br>
+<br>
+參考資料：<br>
 
+參考寫法：<br>
+<br>
+5.產生標籤雲<br>
+<br>
+參考資料：<br>
+<br>
+參考寫法：<br>
+<br>
+<br>
+最後的整合：<br>
