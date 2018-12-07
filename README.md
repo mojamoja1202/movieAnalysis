@@ -43,7 +43,7 @@ with sr.AudioFile(AUDIO_FILE) as source:<br>
 #使用Google語音識別識別語音<br>
 try:<br>
     #出於測試目的，我們只使用默認的API密鑰<br>
-    #要使用其他API密鑰，請使用`r.recognize_google（audio，key =“GOOGLE_SPEECH_RECOGNITION_API_KEY”）<br>
+    #要使用其他API密鑰，請使用`r.recognize_google（audio，key =“GOOGLE_SPEECH_RECOGNITION_API_KEY”）`<br>
     # 而不是`r.recognize_google（audio）`<br>
     print("Google Speech Recognition thinks you said " + r.recognize_google(audio))<br>
 except sr.UnknownValueError:<br>
