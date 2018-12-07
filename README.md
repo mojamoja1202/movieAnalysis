@@ -21,6 +21,7 @@ audioclip.write_audiofile("xxxxxx.mp3")  # 如果想要輸出 mp3<br>
 https://ithelp.ithome.com.tw/articles/10195763<br>
 https://www.youtube.com/watch?v=31DZfkYRvI4<br>
 https://www.youtube.com/watch?v=3LLksqP2aXE<br>
+https://ithelp.ithome.com.tw/articles/10195970<br>
 <br>
 參考寫法:<br>
 
