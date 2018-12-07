@@ -8,6 +8,10 @@
 參考資料：<br>
 https://hardliver.blogspot.com/2017/07/moviepy-moviepy.html<br>
 <br>
+參考寫法:
+videoclip = VideoFileClip("some_video.avi")<br>
+audioclip = videoclip.audio<br>
+<br>
 2.將音訊檔利用SpeechRecogniton將聲音轉文字<br>
 <br>
 參考資料：<br>
