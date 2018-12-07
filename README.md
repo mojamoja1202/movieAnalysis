@@ -9,8 +9,10 @@
 https://hardliver.blogspot.com/2017/07/moviepy-moviepy.html<br>
 <br>
 參考寫法:<br>
+from moviepy.editor import VideoFileClip<br>
 videoclip = VideoFileClip("some_video.avi")<br>
 audioclip = videoclip.audio<br>
+audioclip.write_audiofile("xxxxxx.mp3")  # 如果想要輸出 mp3<br>
 <br>
 2.將音訊檔利用SpeechRecogniton將聲音轉文字<br>
 <br>
