@@ -29,21 +29,21 @@ https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcrib
 <br>
 import speech_recognition as sr<br>
 <br>
-# 在與此腳本相同的文件夾中獲取“english.wav”的路徑<br>
+#在與此腳本相同的文件夾中獲取“english.wav”的路徑<br>
 from os import path<br>
 AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "english.wav")<br>
-# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "french.aiff")<br>
-# AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "chinese.flac")<br>
+#AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "french.aiff")<br>
+#AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "chinese.flac")<br>
 <br>
-# 使用音頻文件作為音頻源<br>
+#使用音頻文件作為音頻源<br>
 r = sr.Recognizer()<br>
 with sr.AudioFile(AUDIO_FILE) as source:<br>
     audio = r.record(source)  # read the entire audio file<br>
 <br>
-# 使用Google語音識別識別語音<br>
+#使用Google語音識別識別語音<br>
 try:<br>
-    # 出於測試目的，我們只使用默認的API密鑰<br>
-    # 要使用其他API密鑰，請使用`r.recognize_google（audio，key =“GOOGLE_SPEECH_RECOGNITION_API_KEY”）<br>
+    #出於測試目的，我們只使用默認的API密鑰<br>
+    #要使用其他API密鑰，請使用`r.recognize_google（audio，key =“GOOGLE_SPEECH_RECOGNITION_API_KEY”）<br>
     # 而不是`r.recognize_google（audio）`<br>
     print("Google Speech Recognition thinks you said " + r.recognize_google(audio))<br>
 except sr.UnknownValueError:<br>
@@ -51,7 +51,7 @@ except sr.UnknownValueError:<br>
 except sr.RequestError as e:<br>
     print("Could not request results from Google Speech Recognition service; {0}".format(e))<br>
 <br>
-# 使用Google Cloud Speech識別語音<br>
+#使用Google Cloud Speech識別語音<br>
 GOOGLE_CLOUD_SPEECH_CREDENTIALS = r"""INSERT THE CONTENTS OF THE GOOGLE CLOUD SPEECH JSON CREDENTIALS FILE HERE"""<br>
 try:<br>
     print("Google Cloud Speech thinks you said " + r.recognize_google_cloud(audio, credentials_json=GOOGLE_CLOUD_SPEECH_CREDENTIALS))<br>
