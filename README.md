@@ -18,4 +18,6 @@ audioclip = videoclip.audio<br>
 https://ithelp.ithome.com.tw/articles/10195763<br>
 https://www.youtube.com/watch?v=31DZfkYRvI4<br>
 https://www.youtube.com/watch?v=3LLksqP2aXE<br>
+<br>
+參考寫法:<br>
 
