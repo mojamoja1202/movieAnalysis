@@ -69,7 +69,7 @@ except sr.RequestError as e:<br>
 <br>
 參考寫法：<br>
 <br>
-4.進行分析，文生每個文字的正負情緒值<br>
+4.進行分析，產生每個文字的正負情緒值<br>
 <br>
 參考資料：<br>
 
