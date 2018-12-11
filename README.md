@@ -8,6 +8,7 @@
 參考資料：<br>
 https://hardliver.blogspot.com/2017/07/moviepy-moviepy.html<br>
 http://zulko.github.io/moviepy/getting_started/audioclips.html<br>
+https://zulko.github.io/moviepy/getting_started/audioclips.html<br>
 <br>
 參考寫法:<br>
 from moviepy.editor import VideoFileClip<br>
