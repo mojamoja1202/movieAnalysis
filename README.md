@@ -13,9 +13,9 @@ https://zulko.github.io/moviepy/getting_started/audioclips.html#creating-a-new-a
 <br>
 參考寫法:<br>
 from moviepy.editor import *<br>
-videoclip = VideoFileClip("some_video.avi")<br>
+videoclip = VideoFileClip("test.mp4")<br>
 audioclip = videoclip.audio<br>
-videoclip2 = videoclip.set_audio(my_audioclip.wav)<br>
+audioclip.write_audiofile("test.wav")<br>
 <br>
 2.將音訊檔利用SpeechRecogniton將聲音轉文字<br>
 <br>
