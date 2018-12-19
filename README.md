@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=3LLksqP2aXE<br>
 https://ithelp.ithome.com.tw/articles/10195970<br>
 https://pypi.org/project/SpeechRecognition/<br>
 https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py<br>
+https://cloud.google.com/speech-to-text/<br>
 <br>
 參考寫法:<br>
 <br>
