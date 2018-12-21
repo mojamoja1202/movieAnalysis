@@ -86,4 +86,15 @@ except sr.RequestError as e:<br>
 參考寫法：<br>
 <br>
 <br>
+6.解析每個家人和小數點及阿比互動的頻率及正負語言出現的機率<br>
+<br>
+<br>
+參考資料：<br>
+<br>
+<br>
+參考寫法：<br>
+<br>
+<br>
+<br>
 最後的整合：<br>
+
