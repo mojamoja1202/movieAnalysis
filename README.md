@@ -20,6 +20,8 @@ audioclip.write_audiofile("test.wav")<br>
 <br>
 2.將音訊檔利用SpeechRecogniton將聲音轉文字<br>
 <br>
+安裝speechrecognition只需pip install SpeechRecognition便可<br>
+<br>
 參考資料：<br>
 https://ithelp.ithome.com.tw/articles/10195763<br>
 https://www.youtube.com/watch?v=31DZfkYRvI4<br>
