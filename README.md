@@ -31,6 +31,7 @@ https://pypi.org/project/SpeechRecognition/<br>
 https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py<br>
 https://cloud.google.com/speech-to-text/<br>
 http://www.chiehfuchan.com/%E7%B0%A1%E5%96%AE%E5%88%A9%E7%94%A8-python-%E5%A5%97%E4%BB%B6-speechrecognition-%E9%80%B2%E8%A1%8C%E8%AA%9E%E9%9F%B3%E8%BE%A8%E8%AD%98/<br>
+https://cloud.google.com/speech-to-text/docs/reference/libraries<br>
 <br>
 參考寫法:<br>
 <br>
