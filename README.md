@@ -68,7 +68,11 @@ except sr.UnknownValueError:<br>
 except sr.RequestError as e:<br>
     print("Could not request results from Google Cloud Speech service; {0}".format(e))<br>
 <br>
-<br>
+<br><br>
+========20190201========<br>
+發現…用google_cloud只是協助辨識30秒內的音訊…如果要辨識30分鐘以上的音訊無法使用以上程式<br>
+重新參考資料：<br>
+https://cloud.google.com/speech-to-text/docs/async-recognize#speech-async-recognize-gcs-python<br>
 <br>
 <br>
 3.將生成的文字檔讀入<br>
