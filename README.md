@@ -73,6 +73,8 @@ except sr.RequestError as e:<br>
 發現…用google_cloud只是協助辨識30秒內的音訊…如果要辨識30分鐘以上的音訊無法使用以上程式<br>
 重新參考資料：<br>
 https://cloud.google.com/speech-to-text/docs/async-recognize#speech-async-recognize-gcs-python<br>
+搭建python開發環境<br>
+https://cloud.google.com/speech-to-text/docs/reference/libraries
 <br>
 <br>
 3.將生成的文字檔讀入<br>
