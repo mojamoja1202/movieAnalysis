@@ -14,8 +14,8 @@ audioclip.write_audiofile("tmp.wav")
 
 #將音訊檔轉換成文字檔
 #這邊使用的套件是Speech_Recognition
-#google Speech Recognition API key:AIzaSyBl4As7kha9o244lyKCYYjJ9zRArnaZtbM
-GOOGLE_KEY="AIzaSyBl4As7kha9o244lyKCYYjJ9zRArnaZtbM"
+#google Speech Recognition API key:xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GOOGLE_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 lang="zh-TW"
 AUDIO_FILE=path.join(path.dirname(path.realpath(__file__)),"tmp.wav")
 r=sr.Recognizer()
@@ -23,7 +23,7 @@ r=sr.Recognizer()
 with sr.AudioFile(AUDIO_FILE) as source:
 	audio = r.record(source) # read the entire audio file
 
-#r.recognize_google(audio,key="AIzaSyBl4As7kha9o244lyKCYYjJ9zRArnaZtbM")
+#r.recognize_google(audio,language=lang)
 try:
 	print("讀取結果："+r.recognize_google(audio,language=lang))
 except sr.UnknownValueError:
