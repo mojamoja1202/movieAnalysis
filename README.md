@@ -75,7 +75,7 @@ except sr.RequestError as e:<br>
 https://cloud.google.com/speech-to-text/docs/async-recognize#speech-async-recognize-gcs-python<br>
 搭建python開發環境<br>
 https://cloud.google.com/speech-to-text/docs/reference/libraries
-<br>
+<br>pip install --upgrade google-cloud-speech
 <br>
 3.將生成的文字檔讀入<br>
 <br>
