@@ -75,8 +75,15 @@ except sr.RequestError as e:<br>
 https://cloud.google.com/speech-to-text/docs/async-recognize#speech-async-recognize-gcs-python<br>
 https://cloud.google.com/speech-to-text/docs/video-model<br>
 搭建python開發環境<br>
-https://cloud.google.com/speech-to-text/docs/reference/libraries
-<br>pip install --upgrade google-cloud-speech
+https://cloud.google.com/speech-to-text/docs/reference/libraries<br>
+pip install --upgrade google-cloud-speech<br>
+使用後發現只能上傳10MB的音訊檔<br>
+重新找尋相關資源後，決定使用IBM Speed to Text<br>
+參考資料：<br>
+https://www.ibm.com/watson/services/speech-to-text/
+
+
+
 <br>
 3.將生成的文字檔讀入<br>
 <br>
